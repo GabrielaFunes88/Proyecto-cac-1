@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto html</title>
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="../estilos.css">
+        
+    </head>
+    <body class="general">
+        <header class="header__flex">
+            <div class="logo_superior">
+                <h2>Conf Bs As</h2>
+            </div>
+            <div class="navegador_superior">
+                <nav>
+                    <a class="link"   href="../index.html">La conferencia</a>
+                    <a class="link"   href="../index.html">Los oradores</a>
+                    <a class="link"   href="../index.html">El lugar y la fecha</a>
+                    <a class="link"   href="../index.html">Conviértete en Orador</a>
+                    <a class="link_ct"   href="#">Comprar Tickets</a>
+    
+                </nav>
+
+            </div>
+           
+            
+        </header>
+        
+        <section id="tipos_de_descuentos">
+           
+            <div class="padre_descuentos">
+                <div class="hijo_descuento_azul">
+                    <div class="tarjetaContenido">
+                        <h3 class="letramediana">Estudiante</h3>
+                        <h4 class="letranonegrita">Tiene un descuento</h4>
+                        <h4>80%</h4>
+                        <h4 class="letranonegrita">*presentar documentación</h4>
+                    </div>  
+                </div>
+        
+                <div class="hijo_descuento_verde">
+                    <div class="tarjetaContenido">
+                        <h3 class="letramediana">Trainee</h3>
+                        <h4 class="letranonegrita">Tiene un descuento</h4>
+                        <h4>50%</h4>
+                        <h4 class="letranonegrita">*presentar documentación</h4>  
+                    </div>  
+                </div>
+    
+                <div class="hijo_descuento_amarillo">
+                    <div class="tarjetaContenido">
+                        <h3 class="letramediana">Junior</h3>
+                        <h4 class="letranonegrita">Tiene un descuento</h4>
+                        <h4>15%</h4>
+                        <h4 class="letranonegrita">*presentar documentación</h4>  
+                    </div>  
+                </div>
+
+            </div>
+            
+
+        </section>
+        
+        <section id="contacto">
+            
+            <div class="titulo_oradores">
+                <h2 class="letrachica">VENTA</h2>
+                <h3 class="letragrande">VALOR DE TICKET $200</h3>
+                <div class="contenedor_datos">
+                    <div class="datos_a_completar_AN">
+                            <input class="dato" type="text" placeholder="Nombre" id="nombre">
+                            <input class="dato" type="text" placeholder="Apellido" id="apellido"> 
+                    </div>
+
+                    <div class="datos_a_completar_correo">
+                        <input class="dato"   type="text" placeholder="Correo" id="email">
+                    </div>
+
+                    <div class="datos_a_completar_cantidadytipo">
+                        <div>
+                            <label for="Cantidad tickets"  >Cantidad</label>
+                            <input type="number" placeholder="Cantidad" class="dato"  aria-label="Cantidad" id="cantidadTickets">
+                        </div>
+                        
+                        
+                        <div>
+                            <label for="categoriaSelect"  >Categoría</label>
+                            <select class="dato" aria-label="Categoria" id="categoriaSelect">
+                                <option value="0">Sin Categoria</option>
+                                <option value="1">Estudiante</option>
+                                <option value="2">Trainee</option>
+                                <option value="3">Junior</option>
+                            </select>
+                         </div>
+                        
+
+                    </div>  
+
+                    <div class="total_a_pagar">
+                        Total a pagar: $<span id="totalPago" class="align-middle">  </span>
+                    </div>
+                    <div class="borraryresumen">
+                        <button  id="btnBorrar" style="background-color: rgb(151, 201, 62) ; color: white; width: 70%; height: 80%; border-radius: 5px; border-color:rgb(151, 201, 62) ;" >Borrar</button>
+                        <button id="btnResumen" style="background-color: rgb(151, 201, 62) ; color: white; width: 70%; height: 80%; border-radius: 5px; border-color:rgb(151, 201, 62)" >Resumen</button>
+                        
+                        
+    
+                    </div>   
+                      
+                </div>   
+            </div>
+        </section>
+        
+
+        </section>
+        
+        <footer class="piedepagina">
+            <a class="linkpie"  href="">Preguntas Frecuentes</a>
+            <a class="linkpie" href="">Contáctanos</a>
+            <a class="linkpie" href="">Prensa</a>
+            <a class="linkpie" href="">Conferencias</a>
+            <a class="linkpie" href="">Términos y Condiciones</a>
+            <a class="linkpie" href="">Privacidad</a>
+            <a class="linkpie" href="">Estudiantes</a>
+        </footer>
+        
+        
+         
+        <script src="../bootstrap.bundle.min.js.map"> </script>
+        <script src="../js/comprar_tickets.js"></script> 
+        
+        
+        
+      
+       
+
+        
+    </body>
+</html>

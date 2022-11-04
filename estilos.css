@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@200;400 & display=swap');
+/*@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@200;400 & display=swap');
 
 .general {
-    font-family: 'Montserrat', sans-serif;
-}
+    font-family: 'Montserrat'sans-serif;
+}*/
 .header__flex {
     background-color: rgb(52, 58, 64);
     display: flex;
@@ -21,7 +21,7 @@
 .navegador_superior {
     display: flex;
     color: white;
-    width: 50%;
+    width: 60%;
     align-items: center;
     justify-content: space-between ;
 }
@@ -31,6 +31,14 @@
     font-size: 1.1rem;
     margin-right: 0.5rem;
 }
+
+.link_ct {
+    text-decoration: none;
+    color: rgb(54, 168, 73);
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+}
+
 .seccion_principal {
     background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url(./assets/imagenes/ba1.jpg) ;
     background-size: cover;
@@ -57,6 +65,9 @@
     font-size: 1rem;
 
 }
+.letranonegrita {
+    font-weight: lighter;
+}
 
 .titulo_oradores {
     display:flex;
@@ -73,14 +84,111 @@
     align-items: center;
     margin-left: 10%;
     justify-content:space-between;
-    
-    
 }
+
+.padre_descuentos {
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 40px;
+    justify-content:space-around;
+}
+
+.contenedor_datos {
+    width: 70%;
+}
+    
+
+.total_a_pagar {
+    width:100%;
+    height: 40px;
+    color: rgb(0, 26, 255);
+    background-color: rgb(204, 229, 255);
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+.borraryresumen {
+    width:100%;
+    height: 40px;
+    display: flex;
+    justify-content:space-around;
+    margin: 5px;
+
+}
+
+.datos_a_completar_AN {
+
+    width:100%;
+    height: 40px;
+    display: flex;
+    justify-content:space-around;
+    margin: 5px;
+
+}
+.datos_a_completar_correo {
+
+    width:100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+.datos_a_completar_cantidadytipo {
+
+    width:100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+.dato {
+    width:100%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+ 
+
 .hijo_oradores {
     width: 30%;
     border: 1px solid rgb(194, 193, 193);
     border-radius: 10px;
 }
+
+.hijo_descuento_azul {
+    width: 30%;
+    height: 40vh;
+    border: 2px solid rgb(64, 88, 199);
+    text-align: center;
+    
+}
+.hijo_descuento_verde {
+    width: 30%;
+    height: 40vh;
+    border: 2px solid rgb(49, 176, 185);
+    text-align: center;
+    
+}
+.hijo_descuento_amarillo {
+    width: 30%;
+    height: 40vh;
+    border: 2px solid rgb(238, 205, 61);
+    text-align: center;
+    
+}
+
 .parrafotarjeta {
     width: 80%;
     
@@ -140,9 +248,15 @@
     display: flex;
     text-decoration: none;
     width: 50%;
-    background-color: rgb(150, 201, 62);
+    background-color: rgb(69, 182, 54);
     padding: 5px;
     color: rgba(248, 250, 248, 0);
+    display: flex;
+    justify-content:space-around;
+    margin: 5px;
+    border-radius: 5px;
+    
+
 }
 .piedepagina{
     display: flex;
